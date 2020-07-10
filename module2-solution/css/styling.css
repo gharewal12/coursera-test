@@ -3,7 +3,6 @@
 }
 h1 {
 	text-align: center;
-	background-color: pink;
 }
 .sec1 {
 	background-color: pink;
@@ -26,7 +25,7 @@ h1 {
 	top: 30px;
 }
 p {
-	/*margin-top: 15px;*/
+	margin-top: 25px;
 	padding: 10px;
 }
 .row section {
@@ -36,7 +35,6 @@ p {
 	font-style: bold;
 	font-size: 25px;
 	text-align: center;
-	/*position: relative;*/
 	float: right;
 	border: 1px solid black;
 }
@@ -60,7 +58,7 @@ p {
 		margin-top: 10px;
 		margin-left: 5px;
 		width: 98.3%;
-		float: left;/*  why ?*/
+		float: left;
 	}
 
 }
@@ -68,6 +66,5 @@ p {
 @media (max-width: 767px) {
 	.col-sm-12 {
 		margin-top: 10px;
-
 	}
 }
