@@ -1,0 +1,35 @@
+#navbarNav .nav-item span{
+	color:#000;
+}
+
+#navbarNav {
+	background-color: #fff;
+}
+
+#navbarNav hr {
+	background-color: #000;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*end of header*/
+
+/*Main content*/
+.item-description {
+	background-color: #343a40;
+	color: #fff;
+	text-align: justify;
+}
+
+#main-content > h2 {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 576px){
+	#navbarNav {
+	border: 1px solid #fff;
+    }
+}
+
