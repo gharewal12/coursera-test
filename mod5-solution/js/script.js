@@ -18,7 +18,7 @@ $(function () { // same as document.addeventlistener("DOMContentLoaded"......)
 
 	var homehtmlurl = "/snippets/home-snippet.html";
 
-	var allcategoriesurl = "http://davids-restaurant.herokuapp.com/categories.json";
+	var allcategoriesurl = "https://davids-restaurant.herokuapp.com/categories.json";
 
 	var categoriestitlehtml = "/snippets/categories-title-snippet.html";
 
