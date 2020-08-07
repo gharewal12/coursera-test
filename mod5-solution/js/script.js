@@ -24,7 +24,7 @@ $(function () { // same as document.addeventlistener("DOMContentLoaded"......)
 
 	var categoryhtml = "/snippets/category-snippet.html";
 	
-	var menuitemsurl = "http://davids-restaurant.herokuapp.com/menu_items.json?category=";
+	var menuitemsurl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
 	var menuitemstitlehtml = "snippets/menu-items-title.html";
 
