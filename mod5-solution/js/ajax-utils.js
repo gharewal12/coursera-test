@@ -23,11 +23,11 @@
 	// Make an ajax get request to requesturl
 	// main function
 
- 	ajaxutils.sendgetrequest = function(requesturl,responsehandler,isJsonResponse) {
+ 	ajaxutils.sendgetrequest = function(requesturl,responsehandler) {
  		var request = getRequestObject();
  		request.onreadystatechange = 
  		function() {
- 			handleresponse(request,responsehandler,isJsonResponse);
+ 			handleresponse(request,responsehandler);
  		};
 
 
@@ -40,20 +40,11 @@
 	// function if response is ready
 	// and not an error
 
-	function handleresponse(request,responsehandler,isJsonResponse){
+	function handleresponse(request,responsehandler){
 		if ((request.readyState == 4) && (request.status == 200)) {
-		if (isJsonResponse == undefined) {
-	      isJsonResponse = true;
-	    	}
-
-	    if (isJsonResponse) {
-	      responseHandler(JSON.parse(request.responseText));
-	    }
-	    else {
 			responsehandler(request.responseText);
-	    }
+		}
 	}
-}
 
 	// Expose utility to the global object
 	global.$ajaxutils = ajaxutils;
