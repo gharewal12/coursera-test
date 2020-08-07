@@ -23,11 +23,11 @@
 	// Make an ajax get request to requesturl
 	// main function
 
- 	ajaxutils.sendgetrequest = function(requesturl,responsehandler) {
+ 	ajaxutils.sendgetrequest = function(requesturl,responsehandler,isJsonResponse) {
  		var request = getRequestObject();
  		request.onreadystatechange = 
  		function() {
- 			handleresponse(request,responsehandler);
+ 			handleresponse(request,responsehandler,isJsonResponse);
  		};
 
 
@@ -40,7 +40,7 @@
 	// function if response is ready
 	// and not an error
 
-	function handleresponse(request,responsehandler){
+	function handleresponse(request,responsehandler,isJsonResponse){
 		if ((request.readyState == 4) && (request.status == 200)) {
 		if (isJsonResponse == undefined) {
 	      isJsonResponse = true;
