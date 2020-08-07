@@ -42,9 +42,18 @@
 
 	function handleresponse(request,responsehandler){
 		if ((request.readyState == 4) && (request.status == 200)) {
+		if (isJsonResponse == undefined) {
+	      isJsonResponse = true;
+	    	}
+
+	    if (isJsonResponse) {
+	      responseHandler(JSON.parse(request.responseText));
+	    }
+	    else {
 			responsehandler(request.responseText);
-		}
+	    }
 	}
+}
 
 	// Expose utility to the global object
 	global.$ajaxutils = ajaxutils;
