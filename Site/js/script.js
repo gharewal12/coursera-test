@@ -16,19 +16,19 @@ $(function () { // same as document.addeventlistener("DOMContentLoaded"......)
 
 	var dc = {};
 
-	var homehtmlurl = "/snippets/home-snippet.html";
+	var homehtmlurl = "https://gharewal12.github.io/coursera-test/Site/home-snippet.html";
 
 	var allcategoriesurl = "https://davids-restaurant.herokuapp.com/categories.json";
 
-	var categoriestitlehtml = "/snippets/categories-title-snippet.html";
+	var categoriestitlehtml = "https://gharewal12.github.io/coursera-test/Site/categories-title-snippet.html";
 
-	var categoryhtml = "/snippets/category-snippet.html";
+	var categoryhtml = "https://gharewal12.github.io/coursera-test/Site/category-snippet.html";
 	
 	var menuitemsurl = "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
-	var menuitemstitlehtml = "snippets/menu-items-title.html";
+	var menuitemstitlehtml = "https://gharewal12.github.io/coursera-test/Site/menu-items-title.html";
 
-	var menuitemhtml = "snippets/menu-item.html";
+	var menuitemhtml = "https://gharewal12.github.io/coursera-test/Site/menu-item.html";
 	// convinience function for inserting innerhtml for select
 
 	var inserthtml = function(selector,html) {
@@ -41,7 +41,7 @@ $(function () { // same as document.addeventlistener("DOMContentLoaded"......)
 
 	var showloading = function (selector) {
 		var html = "<div class='text-center'>";
-		html += "<img src='/image/ajax-loader.gif'></div>";
+		html += "<img src='coursera-test/Site/image/ajax-loader.gif'></div>";
 		inserthtml(selector,html);
 	};
 
