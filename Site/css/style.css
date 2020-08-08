@@ -130,12 +130,12 @@ button.navbar-toggler {
 }
 
 #menu-tile {
-	background: url('/image/menu-tile.jpg') no-repeat;
+	background: url('https://gharewal12.github.io/coursera-test/Site/images/menu-tile.jpg') no-repeat;
 	background-size: cover;
 }
 
 #specials-tile {
-	background: url('/image/specials-tile.jpg') no-repeat;
+	background: url('https://gharewal12.github.io/coursera-test/Site/image/specials-tile.jpg') no-repeat;
 	background-size: cover;
 }
 
@@ -259,7 +259,7 @@ hr {
 /*******Large Device Only*/
 @media (min-width: 1200px) {
 	.container .jumbotron {
-		background: url('/images/jumbotron_1200.jpg') no-repeat;
+		background: url('https://gharewal12.github.io/coursera-test/Site/images/jumbotron_1200.jpg') no-repeat;
 	    height: 675px;
 	}
 }
@@ -267,7 +267,7 @@ hr {
 @media (min-width: 992px) and (max-width: 1199px) {
 	/*Home Page*/
 	.container .jumbotron {
-		background: url('/images/jumbotron_992.jpg') no-repeat;
+		background: url('https://gharewal12.github.io/coursera-test/Site/images/jumbotron_992.jpg') no-repeat;
 	    height: 558px;
 	}   
 }
@@ -275,7 +275,7 @@ hr {
 @media (min-width: 768px) and (max-width: 991px) {
 	/*Home Page*/
 	.container .jumbotron {
-		background: url('/images/jumbotron_768.jpg') no-repeat;
+		background: url('https://gharewal12.github.io/coursera-test/Site/images/jumbotron_768.jpg') no-repeat;
 	    height: 432px;
 	}   
 }
