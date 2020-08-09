@@ -41,7 +41,7 @@ $(function () { // same as document.addeventlistener("DOMContentLoaded"......)
 
 	var showloading = function (selector) {
 		var html = "<div class='text-center'>";
-		html += "<img src='coursera-test/Site/image/ajax-loader.gif'></div>";
+		html += "<img src='https://gharewal12.github.io/coursera-test/Site/image/ajax-loader.gif'></div>";
 		inserthtml(selector,html);
 	};
 
